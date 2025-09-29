@@ -161,8 +161,18 @@
   },
   {
     "ModuleName": "PCPage/页面1",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2025-09-29T14:37:25.1575403+08:00",
     "ModuleType": 1,
-    "IconType": 1
+    "IconType": 1,
+    "ToRemoveFiles": [
+      "Pages\\页面1.json",
+      "Pages\\页面1.rd"
+    ]
   },
   {
     "ModuleName": "Pages/流程页面文件夹",
