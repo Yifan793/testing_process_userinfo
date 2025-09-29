@@ -306,8 +306,18 @@
   },
   {
     "ModuleName": "ProcessItem/基于组织查找",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2025-09-29T14:54:32.6545776+08:00",
     "ModuleType": 28,
-    "IconType": 32
+    "IconType": 32,
+    "ToRemoveFiles": [
+      "Process\\基于组织查找.json",
+      "Process\\基于组织查找.bpmn"
+    ]
   },
   {
     "ModuleName": "ProcessItem/连续多级",
