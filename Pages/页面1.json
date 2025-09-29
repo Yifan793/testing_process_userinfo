@@ -1,11 +1,109 @@
 {
   "Rows": {
-    "Count": 28,
+    "Count": 45,
     "DefaultSize": 32.0
   },
   "Cols": {
     "Count": 37,
     "DefaultSize": 32.0
+  },
+  "AttachInfos": {
+    "1,1": {
+      "ListViewInfo": {
+        "Name": "表格1",
+        "TableName": "用户角色关系视图",
+        "RowIndex": 1,
+        "ColumnIndex": 1,
+        "RowCount": 14,
+        "ColumnCount": 35,
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_NewFashionListStyle2",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2
+      }
+    },
+    "2,1": {
+      "NameUsedInJavaScript": "角色Id",
+      "BindingInfo": {
+        "TableName": "用户角色关系视图",
+        "ColumnName": "角色Id",
+        "GUID": "adc31c7c-df25-4eae-b687-f49bfabaf846"
+      }
+    },
+    "2,4": {
+      "NameUsedInJavaScript": "用户名",
+      "BindingInfo": {
+        "TableName": "用户角色关系视图",
+        "ColumnName": "用户名",
+        "GUID": "b4eb20af-7bf6-495f-a86f-2f95a6720244"
+      }
+    },
+    "2,7": {
+      "NameUsedInJavaScript": "来自组织",
+      "BindingInfo": {
+        "TableName": "用户角色关系视图",
+        "ColumnName": "来自组织",
+        "GUID": "b10997dc-ab11-4a08-bb92-7e6a7543f7a0"
+      }
+    },
+    "16,1": {
+      "ListViewInfo": {
+        "Name": "表格2",
+        "TableName": "用户组织关系视图",
+        "RowIndex": 16,
+        "ColumnIndex": 1,
+        "RowCount": 14,
+        "ColumnCount": 35,
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_NewFashionListStyle2",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2
+      }
+    },
+    "17,1": {
+      "NameUsedInJavaScript": "组织Id",
+      "BindingInfo": {
+        "TableName": "用户组织关系视图",
+        "ColumnName": "组织Id",
+        "GUID": "04dd0e9a-bf82-4713-885d-5b1ea4c6a510"
+      }
+    },
+    "17,4": {
+      "NameUsedInJavaScript": "用户名",
+      "BindingInfo": {
+        "TableName": "用户组织关系视图",
+        "ColumnName": "用户名",
+        "GUID": "21282017-6d2b-488f-b615-ec5d2771b28a"
+      }
+    },
+    "17,7": {
+      "NameUsedInJavaScript": "是否主管",
+      "BindingInfo": {
+        "TableName": "用户组织关系视图",
+        "ColumnName": "是否主管",
+        "GUID": "86b08663-2164-4838-8ae7-77a5e8c723b7"
+      }
+    },
+    "17,10": {
+      "NameUsedInJavaScript": "组织角色Id集合",
+      "BindingInfo": {
+        "TableName": "用户组织关系视图",
+        "ColumnName": "组织角色Id集合",
+        "GUID": "fe3292db-50d8-455b-9cc8-127a73b2b6ca"
+      }
+    },
+    "17,13": {
+      "NameUsedInJavaScript": "组织角色名称集合",
+      "BindingInfo": {
+        "TableName": "用户组织关系视图",
+        "ColumnName": "组织角色名称集合",
+        "GUID": "702250dc-f956-4b63-93e7-c6979ae2c645"
+      }
+    }
   },
   "StyleDatas": {
     "Types": {
@@ -18,6 +116,26 @@
       "FontSize": -999.0
     }
   },
+  "Spans": [
+    "1,1,1,3",
+    "2,1,1,3",
+    "1,4,1,3",
+    "2,4,1,3",
+    "1,7,1,3",
+    "2,7,1,3",
+    "3,1,12,35",
+    "18,1,12,35",
+    "16,1,1,3",
+    "17,1,1,3",
+    "16,4,1,3",
+    "17,4,1,3",
+    "16,7,1,3",
+    "17,7,1,3",
+    "16,10,1,3",
+    "17,10,1,3",
+    "16,13,1,3",
+    "17,13,1,3"
+  ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "PermissionData": {
@@ -41,4 +159,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//NGBSflQVip3nTx4npOYBHPa+QxP8tYzz40wwNHRIDg27FYU9YVu6LmBYPS2i8xv6i5P+YrqhYUlxc4atMgRBVUkaKqKi97/5zzfLU1kRNapXg9/Wk9vbS2EmpLF3TzLaqMY558sP7nQ9qwksL6LsXb9nQMm5qSh/lm8RScMISxMsPbZesWAB+qhN8liqKyO7vqHkjt1oSHiTD3FjpF4+S0ON+DcMxmfOjGpFq/Bo0GibhtQ/69lHYwHiVx1Du1mFvTaPAQ2zW8zhM8pcWG8aiHwiRHLad7ybD0J4ItXTdW7G6oebMUw37iLHyiBeSrslt6ojt3e89R2PW4rlh6P0++nqvfg65nKJh5HzQDnYPuNJvU1Mz/0IPXocL0aBFGJM1nRD+XeGj1u9n+1UkgiJZ9Ob9kbylcfApBd887xYuXpCn1p/FiyHw5aMJjvLIADsD1XTZwU5JjCj8dCKhJjNukXeerEWSXrfwf251N6jvKQstdipg3sVi1vULA+WUIYsxdY0GxBCDn6QRHJFnRvwrk5BpJ9H6LL3rLZWK3cLymn12qTKTcsIu33NCizKCK1H26Qk7uSqscxigT1hrOIU3jN10g4u0cubb48OTgaVrd+nSU/dSAZt5fw9TA63UjG2s3ZOxBHZqamlxy3q35NLnzc436BsIRXdFLSZertR67K+dV17wRJCadRyrMYDAKHbuLTZEJR6MsMOUAVaQyMqizpe/n0sxu5rqFOHGay/fg2IgOys40GTJ+ECeX6ZvYjXK3+7PNhejb7QOZNcIv6nL6BlZ7yTah2zC9V59v5U86ZJ+Czf3746PBSW9MYwS8kXaa2YIgfkGwH6M7DnRjhr9wTx6vBXJVdxp9K+BsPknPHR2BzLDxCixFZkJGHRDTYjoZQaviYgH3sFtW25E0yWmXFFIk5bmhZVmJljeouTNsj/h2BpLyHeRfRa32r+4fhwcZ3pfj5qajhl444BEDc0s6nAuKqnf6S9usj78T9O0aU2ECSzI7lpUtNbVbFtvCa00LfuTmJECp1mvuYk+1U/E9DyBOqrlObXxy8RtbqdXDTDIEqSVxBugd1vq/VBqCgGbxmKSNeWTtODlQ3GmmZIX4Yho5E44Ax+M71Iv5zJieFH/SHHp2hY3VSeqOyFHex1rkQaaTB+IuvfiKa4sxI5kE9EGi8QlEsKb8/D1i57nF/eYYic0rVSbd7tX5NIgVxjbc4bPsAd59F5X9smxMFQqeYr4REtfvZV7njTS9+B/uz5VDJs2tEBzjRedmYNLXDXDSsFm8RNfcYkfHoef3H40s6xne/VLw0tx95KAVwq0BUq5pqkUbMr4zZLNkpvedH1bT3be52KckM31KQ9Q961WZ95NrxrZle1M6w8dWCvstJql2toQ5HB4jNqIkYC1TzbVL2fTh3RUa1c+SGozOcv2S5yMTYIa25Uo3GX4MyPYoSz0Lk60zR4//pm7y5vkIbZlCOgqCMgOacIHmtizanq8cGLDNDyYKuzD7j4jMb9Gw2QuOIer5+hXjgCZ8Y7rGZwrLfs6mxPQ4SbgjKuJ+RIZwszWpQor83nXZSFaFAqSt0GGiv4UokojPXFtmwSxJllkt0y0e42JU4ZXeVv1Uur11RqqbqgotT0wRAxkDfmLe1725zwc8VM33PD2UOnBgLX7J7J+gNd81E6tbsPg+h7wGBHV1IqXYR5cydHj9sUb0TgAHKac/ih6gk5oUYeF6GunMC7yEQ2p30HkQW4ggmp/VwuOn5Cog4imRRJFC5fTsEHbPFHXc0vZwNZX8wNwhOQIea79oF2uQa9vgq0u9KfATLXkwpJrpE9FXsBwMry0YHZrTBzKkQF85DKG7NSIUjxXprs9kbJdEVrZkAIJkrPlyNPAs9cC+VgozYB37tH4CB/hlx0+JeQQ3/uCM+ZQaK7PkWXIgnoB+jclVteV91Zhw==|1944
+}//6BCDWqpElhHGIsLP3p3WNMqCz0R4G2z+tYO2FDHbCpYK8//6CTlFRCS2fHDux2OtL1Fu1pkkcSorqNEgu5Bl94KhskD80p46QQJnGhx8M61rHPT5PmfS3ahsWCet95+u7xYfaBKYrKCdrBM8l1d8RNrw4TmG8BVyJfASotxYNMw0DkkveNdB0tTTG7lhnGpV4wGZJOx81I/AWriT+aR13i23j8pnRio0bBTmHBafhnP+vdzLeaLPDwuARHrAz6X5LjmhKZJUkKEjBsXj70KWIZqda1ikJSIG3q+PSt4G+nhyZbiPmJA7hy65bXbldJjLnCxzgclFs2Xb4t+gdV8T5mILEpqoN/PO33K8BOYy6RgKuuIrNKBleGiG40wGwMKAPyURMi7yiaPAlDRxJyDl8EdrKD834i8vKQekBSnNgdxphL+p61UPn4n1IZ9n3NBV7x3aOPPDk1u15maa+EagBXNSCEoNAbFu8+KgaBA49EZ2RxYt3YE2fdofrGTIONCDcqzHXk8E/Wm2pInIKqJU5h+E09C/hFKb/ctJvChrRWNM6K4yoLbD5ZF/zls1q3H928H+Q6cLk30LhyXlPGT9UwjdNFmpgJK5Ba428qPrSco3WqVDkX/Qic7YPXWZU59x9CNO+s/OlKQU/HmoKaxZSZsSbEZskszl7esh/wbnvUHIUgD8jctqq5+7TMpnBXJQYgtST5PvtJStKYl6TxLYnWrZFg8AOjAq9XaSDNzTjzwodSp9TXKjbh9FNsZjENEFkD96+1nKbrCbkT/wJuXyZv4B28TWK94TCN1PBAnIh3XiYhRKUQRjXdJrqntStzhNjYI+ivx13NyUokVMWPmuc8RvX1Y+WWYC7fCYBwzcj7GqSLMl7M5as4fz1baGYk8qZQTgFOlFDngvvZHBMXafl6FRMqIifvyQz4yxqC2Tm/oE7UaHGmqMoofRK6/E9ZYGZ+9Zf0w/7QXldpmcQDiwaeQ3RRWzLRHZWpITK12+VP3zG7XQM0c+PwBysSGcxnvkVBOuALqVnzwYbjg8PLikF9LQ/W3il5AX3mb6XkDbku7xezL1SWC4JPA7W0JSLpU/Gt7fFjybFBaoB6LwaoGr+Gcd+GDf0M6tNpGMbij1dfV1xYQDymQymljBYqDzvEyS9VHNWpShbYcGdOvdfrNx3WNRcQtBHMH1aDM8AgWwqn/zfgTPhoJsvx/CnEXnIJItGa0d0qFqNIwhIVeOwG1JYVdY3A9deXVkXgy5uCwc+Nro4ZcGZxT16eW45vUPzyRF8vfa/zpcFfazvbeTP5EPVxeXg+ivM3W2aLJPD73ymzH6k3SuO/hTERbE3c+TFqEavJpAR41r7Rq4BIri/gHt7C5Lr5Leqy7e4FxIpJbmaNKyULx2vViTBCTZLju+QywSTcKhvwF3+POb1SYPWSDGU5GoNV3HmqAM0HWP7OUV5Eqe4XsUvuz2VJhH/epInY/xpVlrZau5TmGkXEzVJtVwjgnZ80GbLAwP5UT2RJFZTK0IpcZpTDMw2Ulvi1IjgiBUAXJdj3Or4ffMDkzviTdc3eI4xT18yDnpgy9EZY58+LqSxpY1UFDuffILOeAFYcgwZmOEUjFVoK+mHDcG9kq+IbCN63Ds/hrhEv8HLzaZI2FrMuganARGDTRSiJW39iBpLxANc2KdWLH3NW9mEC+nP7URDerIlxuG+X/qerWrAtBOMl5KIOHIscaNN/8f2LL1/wjIPVFNNBy8pgSIQ5KGUtLIwUAZEq95dV6an5O2xK2EzIPHnoidISUd03t0HPgTAzK763hndGtU29c/CbtEe92lJlCrcpn5RWNkXWboGT//HDFBAMpTB/BT9BPUlUNfACSZcCbrJjlnJVF58HuV8VYqF3xwBAZwbE7X2tIqWHmiUkp/eWiMPh31GKk1RcIKGADwulft21U2MQJQxjPMNQ==|1944

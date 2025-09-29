@@ -161,18 +161,8 @@
   },
   {
     "ModuleName": "PCPage/页面1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2025-09-29T14:37:25.1575403+08:00",
     "ModuleType": 1,
-    "IconType": 1,
-    "ToRemoveFiles": [
-      "Pages\\页面1.json",
-      "Pages\\页面1.rd"
-    ]
+    "IconType": 1
   },
   {
     "ModuleName": "Pages/流程页面文件夹",
@@ -306,63 +296,23 @@
   },
   {
     "ModuleName": "ProcessItem/角色",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2025-09-29T11:54:39.5166241+08:00",
     "ModuleType": 28,
-    "IconType": 32,
-    "ToRemoveFiles": [
-      "Process\\角色.json",
-      "Process\\角色.bpmn"
-    ]
+    "IconType": 32
   },
   {
     "ModuleName": "ProcessItem/组织",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2025-09-29T11:56:47.6768279+08:00",
     "ModuleType": 28,
-    "IconType": 32,
-    "ToRemoveFiles": [
-      "Process\\组织.json",
-      "Process\\组织.bpmn"
-    ]
+    "IconType": 32
   },
   {
     "ModuleName": "ProcessItem/基于组织查找",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2025-09-29T12:13:17.762697+08:00",
     "ModuleType": 28,
-    "IconType": 32,
-    "ToRemoveFiles": [
-      "Process\\基于组织查找.json",
-      "Process\\基于组织查找.bpmn"
-    ]
+    "IconType": 32
   },
   {
     "ModuleName": "ProcessItem/连续多级",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2025-09-29T12:14:18.1928096+08:00",
     "ModuleType": 28,
-    "IconType": 32,
-    "ToRemoveFiles": [
-      "Process\\连续多级.json",
-      "Process\\连续多级.bpmn"
-    ]
+    "IconType": 32
   },
   {
     "ModuleName": "ApplicationSetting",
@@ -406,19 +356,8 @@
   },
   {
     "ModuleName": "UserService",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2025-09-29T11:54:59.1818356+08:00",
     "ModuleType": 11,
-    "IconType": 12,
-    "ToRemoveFiles": [
-      "UserServiceDB.sqlite3",
-      "CloudStorageProvider\\data.json",
-      "SecurityProviderV2\\data.json"
-    ]
+    "IconType": 12
   },
   {
     "ModuleName": "CustomLibrary",
@@ -462,24 +401,12 @@
   },
   {
     "ModuleName": "TableView/用户角色关系视图",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2025-09-29T14:37:05.5948386+08:00",
     "ModuleType": 23,
     "IconType": 27,
     "ExclusiveType": 0
   },
   {
     "ModuleName": "TableView/用户组织关系视图",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2025-09-29T14:37:05.5947156+08:00",
     "ModuleType": 23,
     "IconType": 27,
     "ExclusiveType": 0
