@@ -1,0 +1,261 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "30": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 31
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 20
+  },
+  "Values": {
+    "5,3": "重置密码",
+    "9,3": "*",
+    "9,4": "新密码",
+    "13,3": "*",
+    "13,4": "再次输入新密码",
+    "18,3": "重置",
+    "21,3": "取消重置",
+    "25,3": "请谨慎保存您的新密码"
+  },
+  "AttachInfos": {
+    "10,3": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "ShowPassword": true,
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_NewUnderlineUpdate",
+        "ForguncyAttribute": "ResetPassword_NewPassword"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "14,3": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "ShowPassword": true,
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_NewUnderlineUpdate",
+        "ForguncyAttribute": "ResetPassword_ConfirmPassword"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "18,3": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "重置",
+        "AutoExecute": true,
+        "TemplateKey": "_RS_Main1",
+        "ForguncyAttribute": "ResetPassword_Button"
+      }
+    },
+    "21,3": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "NavigateType": "back",
+            "BreakpointIdentity": "f3d48e38-1ac9-4b46-9750-6519e85e5066"
+          }
+        ],
+        "Text": "取消重置",
+        "ClickMode": 1,
+        "TemplateKey": "_RS_Main"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 24.0,
+        "FontWeight": 1,
+        "Foreground": 2,
+        "Formatter": 3,
+        "HorizontalAlignment": 4,
+        "VerticalAlignment": 5
+      },
+      {
+        "FontFamily": 0,
+        "Foreground": 6,
+        "HorizontalAlignment": 4,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 14.666666984558105,
+        "Foreground": 7,
+        "Formatter": 3
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 14.666666666666666,
+        "Foreground": 8,
+        "Formatter": 9
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 16.0,
+        "Foreground": null,
+        "Formatter": 3
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 16.0,
+        "Foreground": null,
+        "Formatter": 3,
+        "HorizontalAlignment": 10,
+        "Underline": false
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Foreground": 11,
+        "Formatter": 3,
+        "HorizontalAlignment": 10
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Bold",
+        "Text 1 25",
+        "[AUTO]General",
+        "Left",
+        "Bottom",
+        "#FFFF0000",
+        "#FF7F7F7F",
+        "Text 1 15",
+        "@",
+        "Center",
+        "Background 1 -35",
+        "#FF000000"
+      ]
+    },
+    "CellStyles": {
+      "5,3": 0,
+      "9,3": 1,
+      "9,4": 2,
+      "10,3": 3,
+      "13,3": 1,
+      "13,4": 2,
+      "14,3": 3,
+      "18,3": 4,
+      "21,3": 5,
+      "25,3": 6
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "FontSize": -999.0,
+      "Foreground": 12
+    }
+  },
+  "Spans": [
+    "5,3,2,14",
+    "10,3,2,14",
+    "14,3,2,14",
+    "18,3,2,14",
+    "21,3,1,14",
+    "25,3,1,14"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "Title": "重置密码",
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true,
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "Name": "403a73b9-04b9-4974-828b-bd0f78a1f8a0.png",
+      "StyleInfo": {
+        "CornerRadius": 20.0,
+        "Fill": "#FFF6F6F8",
+        "StrokeDashType": 8,
+        "Stroke": "black",
+        "StrokeThickness": 0.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Location": "20,60",
+      "Size": "340,420"
+    }
+  ]
+}//gHE71BXMbPjDzqMrh6sZruvYkK/dSr4a9UD2t21w1G9FxPovPKd9YwdhDjp8eDxdH89U32P7y9RLwKzxs3ywCK50m/G/ISj+rGBJK1mFksj22c8JfnYEf8sUAhzh5fIaZME+vCXEMj9rWb2Ef+/3r51TMWsHIEaL1sKGOX3vDhSjOrnRM/3LOcgpqMp+SeOe7W8HwytqwaYmypqcU2YL8bH10wzeQpAnZO/DRPw8Sg6NyENhSxIIDnmnnojMbEuQbAHshuXgQ4VxeLuDXSpmLAy3OSnveZbNiPXfMRhpKOG0XAnWLcl5R7GbgXCmSzzCeLcgiBknB0AWcME+iSXz+WE8l+sYrEffDirQNgTW2hBqX+igSP2n8zM00Gu3Ssbu1xehxj7Th5lVoMWmyLVEpQFuPJnqRf9HivxAR2G3q/6aG76NopHJnZY5mkSK4ZHOBvLjaL1w9NCnSx9sXGHt+ok55cyOarozAENOmYG6uXGOQK7s29P9I3uLmGZ0VWtDCT6l0/T01OSvwqboLCSaHS/i8zfd+UYHP2V/9L67tA+DQc5gcmROldP19z0LRWFs6DFtdRoA0n5ZVmrF9u24ki5fdXGPRK7hUJ3CYgbpHWprG+yvjo8TwIOsmKGy+bZ+QWJO4j5vElmdeOB7RefPj1YGTAfdgHpuO+apllIUBlh7K/0iKeq9Q+5IdAQv517yr+Aor9P4eEfaVlQ43LdybIT4ASPQB8GXVscKZA+Tk0X/I/pykCOdEy5e4M86p0inrSgRjdGGS7XiyGK9eBM7qYZNgCfcK1R1iaVNcnrhWsB+/tJNo9NIZby4NHgfFVCHtfGdswynCK4KlPOqmrUx63Hb1IUkbAhrngbCP2T1AaM0i+LVKbLVzS3mc6HJjuFY64GjgoCFzEAz8HfCXcjU9z1qljk5NH8WGb4IYBLz1wEm4p+v6Vb4LLafDqGtWqSwr2Xeg+nJnHBoYgKvRTLOcLSF8JRwRLz7OSmagCS0Co2PC3RlWsGiDbuCBh3eWSBMhcoTn29vReGiUMc9ovvYuSdzflnFfPSlD2GBh/gmkXn8hHU4gXpn/ekZVU16GEdD4nxH6QIKmWM08rstOqGgooc7KvVeiTUAopInNfPfxcQxCPtVXhhE4CSnjxPmMyN2D/1F0FXKzbiH5Kk14zV5sxTABKZBwDOORjjGy3Z8HpyOpYgO6sdNXCORo7h5iaHgrEGQFXGzuCS3PaGZ3JaVeJRAbSvmmU7vPQ8wojeXNn73502Pyd4VXS3+nk8zkyjm3FwuH3zHIPyXYnbbacgvmCQmcoQu5uHbNkecVCR36YFHl7x3S+U4lpw8R8x0ziYSdc25twtwg553pLlKLD8oPYuRR9STAQQNXnWByF/m9B0uimnbTvSsgMWT5jt7o30RARxvx6kffttvPCGJglsG0j+UfCcsGWeHIS47S2y7578mmlMT8rAPZsqyg/VBv2smsqW/zzga0ZAGbp4Qk7SPxTnTTx9AbiptNEO+4q1zbIUcwIKHxP4oVJRJul/APufUB5sfh+6W3weNe/3XLoouba5RTNNu70gAYxthqlYWDyXcyAVSDPTbdO14Fq2MSosgs9APezo30qgNpGOiphANCzYWKSJwZx9aLDQqnpS8CxbblBxmJPX7rsScui6hlxVDou8e3yltoIkvIYcZM/05NprJ1ivNgCHXDeRa4NUvcIEPzw8na0tKQy0JBLd1+aWA1KOr9P5RE8Fnhym8ednthzJtCnQ+4FT0pvGrYtiDcsEIxj0jY6es9P1fsTEL9kT4mxmAWR5Y+t9vKJftEB5L437AdqSCrf/9EcnAZ8JAjrCZF3wrTVkra3m7zinTUWBb5Zhz+kb1bNBpJJJyhTpR0XUDJA/6I+keaovuEG3UBHRvjmWMW/4/YmNZ4O/Q0cjB1asaiYGO2MEdiB5r4Tzf8A==|1944

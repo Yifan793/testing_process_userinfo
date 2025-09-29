@@ -1,0 +1,52 @@
+{
+  "IntegrateWithOtherApplication": {
+    "Password": "e1Y8&yUG!HHQ"
+  },
+  "ShareCommandContainers": [],
+  "ListviewLoadingIndicatorSettings": {},
+  "ServerPropertySecurityID": "0546850e-a9f8-4733-ae05-a30b37a069bd",
+  "GlobalProperties": [],
+  "WebSitePort": 33172,
+  "UserServicePort": 62184,
+  "BpmServerSchemaId": "006fe09d-455a-433d-90cc-7ea4b4301484",
+  "ProcessDataConnectionSet": {
+    "ExternalDatabaseId": "MySql1"
+  },
+  "StartPage": "FGC_我发起的",
+  "StartDateFiscalYear": 1,
+  "BaseOnStartingMonth": true,
+  "MultipleLanguageSettings": {
+    "Languages": [
+      {
+        "Name": "cn",
+        "IsDefault": true,
+        "Description": "内置语言中文，不可删除",
+        "IsBuildIn": true,
+        "LanguageAttribute": "zh-cn",
+        "FontFamily": "Body"
+      },
+      {
+        "Name": "en",
+        "Description": "内置语言英文，不可删除",
+        "IsBuildIn": true,
+        "LanguageAttribute": "en",
+        "FontFamily": "Calibri"
+      }
+    ],
+    "PublicResource": {},
+    "RuntimeBuiltInResource": {
+      "FrontEndResources": {},
+      "ServerResources": {},
+      "ProcessDesignerResource": {},
+      "ProcessTrackerResource": {}
+    },
+    "PluginResource": {}
+  },
+  "AppAIModelSettings": {
+    "AIModels": []
+  },
+  "AppMCPConfigSetting": {
+    "Dic": {}
+  },
+  "ServerCommandsAsMCPServerSetting": {}
+}
