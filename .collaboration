@@ -296,8 +296,18 @@
   },
   {
     "ModuleName": "ProcessItem/角色",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2025-09-29T11:54:39.5166241+08:00",
     "ModuleType": 28,
-    "IconType": 32
+    "IconType": 32,
+    "ToRemoveFiles": [
+      "Process\\角色.json",
+      "Process\\角色.bpmn"
+    ]
   },
   {
     "ModuleName": "ProcessItem/组织",
