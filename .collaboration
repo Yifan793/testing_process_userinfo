@@ -449,5 +449,17 @@
     "ModuleName": "PermissionGroupConfig",
     "ModuleType": 44,
     "IconType": 45
+  },
+  {
+    "ModuleName": "TableView/用户角色关系视图",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2025-09-29T14:36:49.485725+08:00",
+    "ModuleType": 23,
+    "IconType": 27,
+    "ExclusiveType": 0
   }
 ]
