@@ -457,7 +457,19 @@
       "UserName": "GRAPECITY\\ShaySong",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2025-09-29T14:36:49.485725+08:00",
+    "LockDateTime": "2025-09-29T14:37:05.5948386+08:00",
+    "ModuleType": 23,
+    "IconType": 27,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "TableView/用户组织关系视图",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2025-09-29T14:37:05.5947156+08:00",
     "ModuleType": 23,
     "IconType": 27,
     "ExclusiveType": 0
